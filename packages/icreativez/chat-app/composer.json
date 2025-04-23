@@ -1,0 +1,22 @@
+
+{
+    "name": "icreativez/chat-app",
+    "description": "A Realtime -laravel livewire single page chat application",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "iCreativez\\ChatApp\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "iCreativez\\ChatApp\\ChatAppServiceProvider"
+        ]
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "livewire/livewire": "^3.0"
+    }
+  }
